@@ -1,0 +1,19 @@
+{
+  "name": "ipa-ota-server",
+  "version": "1.0.0",
+  "description": "Simple server to host IPA files and generate OTA manifest for iOS installs",
+  "scripts": {
+    "generate-cache": "node ./scripts/generate-cache.js",
+    "predev": "node ./scripts/generate-cache.js",
+    "dev": "nuxt dev --host 0.0.0.0",
+    "build": "nuxt build"
+  },
+  "author": "c",
+  "license": "MIT",
+  "dependencies": {
+    "adm-zip": "^0.5.9",
+    "mime-types": "^2.1.35",
+    "nuxt": "^3.6.0",
+    "plist": "^3.0.1"
+  }
+}

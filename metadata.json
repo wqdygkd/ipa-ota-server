@@ -1,0 +1,16 @@
+{
+  "Shadowrocket_2.2.72.ipa": {
+    "title": "Shadowrocket",
+    "bundleIdentifier": "com.liguangming.Shadowrocket",
+    "bundleVersion": "2.2.72",
+    "name": "Shadowrocket",
+    "icon": "/icons/Shadowrocket_2.2.72.jpg"
+  },
+  "Websea_1.8.0.ipa": {
+    "title": "Websea",
+    "bundleIdentifier": "com.websea.exchange",
+    "bundleVersion": "1.8.0",
+    "name": "ExApp",
+    "icon": "/icons/Websea_1.8.0.png"
+  }
+}
