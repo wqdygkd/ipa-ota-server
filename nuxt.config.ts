@@ -3,16 +3,16 @@ import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
   ssr: true,
-  nitro: {
-    preset: 'node',
-    publicAssets: [
-      // {
-      //   dir: resolve('./ipas'),
-      //   baseURL: 'files',
-      //   maxAge: 0
-      // }
-    ]
-  },
+  // nitro: {
+  //   preset: 'node',
+  //   publicAssets: [
+  //     // {
+  //     //   dir: resolve('./ipas'),
+  //     //   baseURL: 'files',
+  //     //   maxAge: 0
+  //     // }
+  //   ]
+  // },
   vite: ( {
     server: {
       // bind dev server to all interfaces so LAN devices can access

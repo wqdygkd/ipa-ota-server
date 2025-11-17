@@ -6,7 +6,8 @@
     "generate-cache": "node ./scripts/generate-cache.js",
     "predev": "node ./scripts/generate-cache.js",
     "dev": "nuxt dev --host 0.0.0.0",
-    "build": "nuxt build"
+    "build": "nuxt build",
+    "start": "nuxt start"
   },
   "author": "c",
   "license": "MIT",
