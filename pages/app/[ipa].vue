@@ -24,7 +24,8 @@ const headers = useRequestHeaders(['host', 'x-forwarded-proto'])
 const origin = runtimeBase || (process.client ? window.location.origin : `${headers['x-forwarded-proto'] || 'https'}://${headers.host || ''}`)
 
 const url = 'itms-services://?action=download-manifest&url='
-const fetchurl = `${origin}/files/${encodeURIComponent(ipa)}`
+// const fetchurl = `${origin}/files/${encodeURIComponent(ipa)}`
+const fetchurl = `https://ghfast.top/https://github.com/wqdygkd/ipa-ota-server/blob/main/ipas/${encodeURIComponent(ipa)}`
 
 const metaData = (meta && meta.value) || {}
 // prefer cached public icon if generate-cache produced it, otherwise fall back to API
